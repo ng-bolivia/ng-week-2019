@@ -1,6 +1,6 @@
 nav {
   position: relative;
-  background: $gray;
+  background: #F7F7F6;
   box-shadow: 5px 2px 20px 0 rgba(0,0,0,0.10);
   display: flex;
   > * {
@@ -24,11 +24,11 @@ nav {
 .nav__item {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.4rem;
-  color: $black;
+  color: #141720;
   letter-spacing: 1.45px;
   text-transform: uppercase;
   a {
-    color: $black;
+    color: #141720;
     font-weight: 500;
     &:hover {
       text-decoration: none;
@@ -48,7 +48,7 @@ nav {
 }
 
 .nav_social__item {
-  color: $black;
+  color: #141720;
   display: block;
   &:hover {
     animation: shake .8s ease-in-out;

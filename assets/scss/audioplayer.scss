@@ -6,7 +6,7 @@
   border: none;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: $black;
+  background-color: #141720;
   outline: none;
   &.play {
     background-image: url(../images/play.svg);
@@ -42,7 +42,7 @@
   }
   .slider {
     flex-grow: 1;
-    background-color: $gray;
+    background-color: #F7F7F6;
     cursor: pointer;
     position: relative;
     .progress {

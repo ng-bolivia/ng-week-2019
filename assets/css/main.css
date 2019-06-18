@@ -209,7 +209,7 @@ nav {
   .episode:nth-child(3) .episode__image {
     background-image: url(../images/photos/edited/3.png); }
   .episode:nth-child(4) .episode__image {
-    background-image: url(../images/photos/edited/nico2.png); }
+    background-image: url(../images/photos/edited/4.png); }
   .episode:nth-child(5) .episode__image {
     background-image: url(../images/photos/edited/4.png); }
   .episode:hover .episode__detail:before {
@@ -221,8 +221,8 @@ nav {
   .episode:hover:nth-child(3) .episode__image {
     background-image: url(../images/photos/original/3.png); }
   .episode:hover:nth-child(4) .episode__image {
-    background-image: url(../images/photos/original/nico.JPG); }
-   .episode:hover:nth-child(5) .episode__image {
+    background-image: url(../images/photos/original/4.png); }
+  .episode:hover:nth-child(5) .episode__image {
     background-image: url(../images/photos/original/4.png); }
 
 .episode__number {
@@ -561,4 +561,4 @@ nav {
   .right .site__playbar {
     margin: 5rem 10% 0 10%; } }
 
-/*# sourceMappingURL=dropcast.css.map */
+/*# sourceMappingURL=main.css.map */
