@@ -11,24 +11,73 @@
       <link href="https://fonts.googleapis.com/css?family=Rufina:400,700|Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     </head>
+    <style>
+      .site__title.site__title--separator:after {
+        border-bottom: 3px solid #7CCDB9;
+      }
+      
+      div.image{
+        width: 60px;
+        height: 60px;
+        margin-top: 1em;
+        margin-left: 32px;
+        position: absolute;
+      }
+
+      div.imagefooter {
+        width: 46px;
+        height: 60px;
+        right: 26px;
+        margin-bottom: 20px;
+        position: absolute;
+      }
+
+      img {
+        position: relative;
+        width: 100%;
+      }
+
+      footer {
+        background-color: rgba(255,255,255, 0.2 ); 
+      }
+
+      .nav__list {
+        margin-top: 8em;
+      }
+
+      .episode__image {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        transition: all .1s ease-in-out;
+        display: block;
+      }
+
+      .episode:nth-child(2) .episode__image {
+        background-image: url(../images/photos/original/luixaviles.jpg);
+    }
+
+      .episode:nth-child(4) .episode__image {
+          background-image: url(../images/photos/original/nico.jpg);
+      }
+  
+    </style>
     <body>
       <div id="site__bg"></div>
       <div class="main">
         <nav>
-          <div class="logo nav__logo">
-            <a href="index.html"><img src="assets/images/logo.svg" alt="logo"/></a>
+          <div class="image">
+            <a href="index.html">
+              <img src="assets/images/logo1.png" alt="logo" class="img"/>
+            </a>
           </div>
           <ul class="nav__list">
-            <li class="nav__item"><a href="#">Episodes</a></li>
-          </ul>
-          <ul class="nav__social">
-            <li><a href="#" class="nav_social__item"><i class="fab fa-google-play"></i></a></li>
-            <li><a href="#" class="nav_social__item"><i class="fab fa-itunes-note"></i></a></li>
-            <li><a href="#" class="nav_social__item"><i class="fas fa-rss-square"></i></a></li>
+            <li class="nav__item"><a href="#">Dias</a></li>
           </ul>
         </nav>
         <section class="site">
-          <h1 class="site__title site__title--separator"><a href="index.html">Dropcast</a></h1>
+          <h1 class="site__title site__title--separator"><a href="index.html">Angular Week</a></h1>
           <p class="site__description">A podcast discussing anything web related with the world’s experts</p>
         </section>
         <section class="episodes">
@@ -45,39 +94,55 @@
           <article class="episode">
             <h2 class="episode__number">02</h2>
             <div class="episode__media">
-              <a href="detail.html" class="episode__image"></a>
+              <a href="detail2.html" >
+                  <img src="assets/images/photos/original/luixaviles.jpg" class="episode__image" alt="" class="img2">
+              </a>
             </div>
             <div class="episode__detail">
-              <a href="detail.html" class="episode__title"><h4>Dylan Perry</h4></a>
-              <p class="episode__description">Dylan talks to us about how he started programming, challenges he has faced and what keeps him hooked till this day.</p>
+              <a href="detail2.html" class="episode__title"><h4>Luis Aviles</h4></a>
+              <p class="episode__description">Software Developer, Angular lover, Trainer, Speaker, Photography and Astrophotography enthusiast.</p>
             </div>
           </article>
           <article class="episode">
             <h2 class="episode__number">03</h2>
             <div class="episode__media">
-              <a href="detail.html" class="episode__image"></a>
+              <a href="detail3.html" class="episode__image"></a>
             </div>
             <div class="episode__detail">
-              <a href="detail.html" class="episode__title"><h4>Olivia Valdez</h4></a>
+              <a href="detail3.html" class="episode__title"><h4>Olivia Valdez</h4></a>
               <p class="episode__description">Olivia talks about how machine learning models can be used as effective substitutes for classic data structures.</p>
             </div>
           </article>
           <article class="episode">
             <h2 class="episode__number">04</h2>
             <div class="episode__media">
-              <a href="detail.html" class="episode__image"></a>
+              <a href="detail4.html" class="episode__image">
+                <img src="assets/images/photos/original/nico.jpg" class="episode__image" alt="" class="img2">
+              </a>
             </div>
             <div class="episode__detail">
-              <a href="detail.html" class="episode__title"><h4>Samuel Chavezy</h4></a>
-              <p class="episode__description">Sam talks to us about how he started programming and what keeps him hooked till this day.</p>
+              <a href="detail4.html" class="episode__title"><h4>Nicolas Molina</h4></a>
+              <p class="episode__description">I'm a software developer who is passionate about Web Technologies. I love to be a developer and to create software.</p>
             </div>
           </article>
+          <article class="episode">
+              <h2 class="episode__number">05</h2>
+              <div class="episode__media">
+                <a href="detail5.html" class="episode__image"></a>
+              </div>
+              <div class="episode__detail">
+                <a href="detail5.html" class="episode__title"><h4>Samuel Chavezy</h4></a>
+                <p class="episode__description">Sam talks to us about how he started programming and what keeps him hooked till this day.</p>
+              </div>
+            </article>
         </section>
       </div>
       <footer>
-        <p class="footer__content">Dropcast is a template made by <a href="https://amie-chen.com">Amie Chen</a> exclusively for Codrops</p>
-        <div class="logo footer__logo">
-          <a href="https://tympanus.net/codrops/"><img src="assets/images/logo-white.svg" alt="logo"/></a>
+        <p class="footer__content">Evento organizado por la comunidad <a href="https://ng-bolivia.org/">Ng Bolivia </a> Team © 2019</p>
+        <div class="imagefooter">
+          <a href="https://tympanus.net/codrops/">
+            <img src="assets/images/logo1.png" alt="logo" class="img"/>
+          </a>
         </div>
       </footer>
       <script src="assets/js/dropcast.js"></script>
