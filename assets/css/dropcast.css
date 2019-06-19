@@ -205,7 +205,7 @@ nav {
   .episode:nth-child(1) .episode__image {
     background-image: url(../images/photos/edited/nico2.png); }
   .episode:nth-child(2) .episode__image {
-    background-image: url(../images/photos/edited/luis2.PNG); }
+    background-image: url(../images/photos/edited/luis2.png); }
   .episode:nth-child(3) .episode__image {
     background-image: url(../images/photos/edited/3.png); }
   .episode:nth-child(4) .episode__image {
@@ -215,13 +215,13 @@ nav {
   .episode:hover .episode__detail:before {
     width: 100%; }
   .episode:hover:nth-child(1) .episode__image {
-    background-image: url(../images/photos/original/nico.JPG); }
+    background-image: url(../images/photos/original/nico.jpg); }
   .episode:hover:nth-child(2) .episode__image {
     background-image: url(../images/photos/original/luis.jpg); }
   .episode:hover:nth-child(3) .episode__image {
     background-image: url(../images/photos/original/3.png); }
   .episode:hover:nth-child(4) .episode__image {
-    background-image: url(../images/photos/original/nico.JPG); }
+    background-image: url(../images/photos/original/nico.jpg); }
    .episode:hover:nth-child(5) .episode__image {
     background-image: url(../images/photos/original/4.png); }
 

@@ -1,131 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Dropcast - Podcast Template from Codrops</title>
-      <link rel="stylesheet" href="assets/css/dropcast.css">
-      <link rel="author" href="humans.txt">
-      <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Rufina:400,700|Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    </head>
-    <style>
-      .site__title.site__title--separator:after {
-        border-bottom: 3px solid #7CCDB9;
-      }
-      
-      div.image{
-        width: 60px;
-        height: 60px;
-        margin-top: 1em;
-        margin-left: 32px;
-        position: absolute;
-      }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ngWeek</title>
+    <link rel="stylesheet" href="assets/css/dropcast.css" />
+    <link rel="author" href="humans.txt" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rufina:400,700|Source+Sans+Pro:200,300,400,600,700"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <style>
+    .site__title.site__title--separator:after {
+      border-bottom: 3px solid #7ccdb9;
+    }
 
-      div.imagefooter {
-        width: 46px;
-        height: 60px;
-        right: 26px;
-        margin-bottom: 20px;
-        position: absolute;
-      }
+    .logo-img{
+      width: 66px;
+      transform: translate3d(20px, 40px, 0);
+    }
 
-      img {
-        position: relative;
-        width: 100%;
-      }
+    div.imagefooter {
+      width: 46px;
+      height: 60px;
+      right: 26px;
+      position: absolute;
+    }
 
-      footer {
-        background-color: rgba(255,255,255, 0.2 ); 
-      }
+    img {
+      position: relative;
+      width: 100%;
+    }
 
-      .nav__list {
-        margin-top: 8em;
-      }
-  
-    </style>
-    <body>
-      <div id="site__bg"></div>
-      <div class="main">
-        <nav>
-          <div class="image">
-            <a href="index.html">
-              <img src="assets/images/logo1.png" alt="logo" class="img"/>
-            </a>
-          </div>
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#">Dias</a></li>
-          </ul>
-        </nav>
-        <section class="site">
-          <h1 class="site__title site__title--separator"><a href="index.html">Angular Week</a></h1>
-          <p class="site__description">A podcast discussing anything web related with the world’s experts</p>
-        </section>
-        <section class="episodes">
-          <article class="episode">
-            <h2 class="episode__number">01</h2>
-            <div class="episode__media">
-              <a href="detail.html" class="episode__image"></a>
-            </div>
-            <div class="episode__detail">
-              <a href="detail.html" class="episode__title"><h4>Linda Watkins</h4></a>
-              <p class="episode__description">Linda talks about how machine learning models can be used as effective substitutes for classic data structures.</p>
-            </div>
-          </article>
-          <article class="episode">
-            <h2 class="episode__number">02</h2>
-            <div class="episode__media">
-              <a href="detail2.html" class="episode__image"></a>
-            </div>
-            <div class="episode__detail">
-              <a href="detail2.html" class="episode__title"><h4>Luis Aviles</h4></a>
-              <p class="episode__description">Software Developer, Angular lover, Trainer, Speaker, Photography and Astrophotography enthusiast.</p>
-            </div>
-          </article>
-          <article class="episode">
-            <h2 class="episode__number">03</h2>
-            <div class="episode__media">
-              <a href="detail3.html" class="episode__image"></a>
-            </div>
-            <div class="episode__detail">
-              <a href="detail3.html" class="episode__title"><h4>Olivia Valdez</h4></a>
-              <p class="episode__description">Olivia talks about how machine learning models can be used as effective substitutes for classic data structures.</p>
-            </div>
-          </article>
-          <article class="episode">
-            <h2 class="episode__number">04</h2>
-            <div class="episode__media">
-              <a href="detail4.html" class="episode__image">
-              </a>
-            </div>
-            <div class="episode__detail">
-              <a href="detail4.html" class="episode__title"><h4>Nicolas Molina</h4></a>
-              <p class="episode__description">I'm a software developer who is passionate about Web Technologies. I love to be a developer and to create software.</p>
-            </div>
-          </article>
-          <article class="episode">
-              <h2 class="episode__number">05</h2>
-              <div class="episode__media" class="episode__image">
-                  <a href="detail5.html" class="episode__image">
-                    </a>
-              </div>
-              <div class="episode__detail">
-                <a href="detail5.html" class="episode__title"><h4>Samuel Chavezy</h4></a>
-                <p class="episode__description">Sam talks to us about how he started programming and what keeps him hooked till this day.</p>
-              </div>
-            </article>
-        </section>
-      </div>
-      <footer>
-        <p class="footer__content">Evento organizado por la comunidad <a href="https://ng-bolivia.org/">Ng Bolivia </a> Team © 2019</p>
-        <div class="imagefooter">
-          <a href="https://tympanus.net/codrops/">
-            <img src="assets/images/logo1.png" alt="logo" class="img"/>
+    footer {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .nav__list {
+      margin-top: 8em;
+    }
+  </style>
+  <body>
+    <div id="site__bg"></div>
+    <div class="main">
+      <nav>
+        <div>
+          <a href="index.html">
+            <img src="assets/images/logo1.png" alt="logo" class="logo-img" />
           </a>
         </div>
-      </footer>
-      <script src="assets/js/dropcast.js"></script>
-    </body>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/">Días</a></li>
+        </ul>
+      </nav>
+      <section class="site">
+        <h1 class="site__title site__title--separator">
+          <a href="index.html">Ng-Week</a>
+        </h1>
+        <p class="site__description">
+          Cinco días seguidos de meetups y desarrollo en Angular, alistando el
+          camino hacia la <a target="_blank" href="https://ng-bolivia.org/">Ng Bolivia 2019.</a>
+        </p>
+        <p class="site__description">
+          Se llevará acabo los días 24, 25, 26, 27 y 28 de Junio desde las 7pm a 9pm.
+        </p>
+      </section>
+      <section class="episodes">
+        <article class="episode">
+          <h2 class="episode__number">Día 01</h2>
+          <div class="episode__media">
+            <a href="day-1.html" class="episode__image"></a>
+          </div>
+          <div class="episode__detail">
+            <a href="day-1.html" class="episode__title"
+              ><h4>Nicolas Molina</h4></a
+            >
+            <p class="episode__description">
+               Creando una app de Tareas conectada a una REST API en Ionic/Angular
+            </p>
+          </div>
+        </article>
+        <article class="episode">
+          <h2 class="episode__number">Día 02</h2>
+          <div class="episode__media">
+            <a href="day-2.html" class="episode__image"></a>
+          </div>
+          <div class="episode__detail">
+            <a href="day-2.html" class="episode__title"
+              ><h4>Luis Aviles</h4></a
+            >
+            <p class="episode__description">
+              Software Developer, Angular lover, Trainer, Speaker, Photography
+              and Astrophotography enthusiast.
+            </p>
+          </div>
+        </article>
+        <article class="episode">
+          <h2 class="episode__number">Día 03</h2>
+          <div class="episode__media">
+            <a href="day-3.html" class="episode__image"></a>
+          </div>
+          <div class="episode__detail">
+            <a href="day-3.html" class="episode__title"
+              ><h4>Olivia Valdez</h4></a
+            >
+            <p class="episode__description">
+              Olivia talks about how machine learning models can be used as
+              effective substitutes for classic data structures.
+            </p>
+          </div>
+        </article>
+        <article class="episode">
+          <h2 class="episode__number">Día 04</h2>
+          <div class="episode__media">
+            <a href="day-4.html" class="episode__image"> </a>
+          </div>
+          <div class="episode__detail">
+            <a href="day-4.html" class="episode__title"
+              ><h4>Nicolas Molina</h4></a
+            >
+            <p class="episode__description">
+              I'm a software developer who is passionate about Web Technologies.
+              I love to be a developer and to create software.
+            </p>
+          </div>
+        </article>
+        <article class="episode">
+          <h2 class="episode__number">Día 05</h2>
+          <div class="episode__media" class="episode__image">
+            <a href="day-5.html" class="episode__image"> </a>
+          </div>
+          <div class="episode__detail">
+            <a href="day-5.html" class="episode__title"
+              ><h4>Samuel Chavezy</h4></a
+            >
+            <p class="episode__description">
+              Sam talks to us about how he started programming and what keeps
+              him hooked till this day.
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <footer>
+      <p class="footer__content">
+        Evento organizado por la comunidad
+        <a target="_blank" href="https://ng-bolivia.org/">Ng Bolivia </a> Team © 2019
+      </p>
+      <div class="imagefooter">
+        <a href="https://tympanus.net/codrops/">
+          <img src="assets/images/logo1.png" alt="logo" class="img" />
+        </a>
+      </div>
+    </footer>
+    <script src="assets/js/dropcast.js"></script>
+  </body>
 </html>
