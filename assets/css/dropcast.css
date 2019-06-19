@@ -277,10 +277,10 @@ h1.site__secondary_title{
   background-image: url(../images/photos/original/nico.jpg);
 }
 .episode:nth-child(2) .episode__image {
-  background-image: url(../images/photos/original/luis.jpg);
+  background-color: white;
 }
 .episode:nth-child(3) .episode__image {
-  background-image: url(../images/photos/edited/3.png);
+  background-color: white;
 }
 .episode:nth-child(4) .episode__image {
   background-image: url(../images/photos/original/luis.jpg);
