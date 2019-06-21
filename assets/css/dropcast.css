@@ -272,6 +272,7 @@ h1.site__secondary_title{
 }
 .episode .episode__image{
   filter: grayscale(100%);
+  background-position: top center;
 }
 .episode:nth-child(1) .episode__image {
   background-image: url(../images/photos/original/nico.jpg);
@@ -304,6 +305,20 @@ h1.site__secondary_title{
   font-size: 3rem;
   margin: 0;
   color: #5d6bcf;
+}
+
+.episode__link {
+  position: absolute;
+  bottom: 1rem;
+  right: -1rem;
+  z-index: 1;
+  font-size: 1.5rem;
+  padding: 2px 5px;
+  margin: 0;
+  background-color: #5d6bcf;
+  color: white;
+  text-decoration: none;
+  font-family: "Rufina", serif;
 }
 
 .episode__image {
